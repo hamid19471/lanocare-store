@@ -4,8 +4,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        "primary-color": "#C99A57",
-        "secondary-color": "#000000",
+        primary: "#C99A57",
+        secondary: "#000000",
+        box: "#141414",
       },
       fontSize: {
         header: "3rem",
