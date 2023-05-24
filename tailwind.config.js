@@ -13,9 +13,6 @@ export default {
         subheader: "1.3rem",
         contnet: "1rem",
       },
-      fontFamily: {
-        main: ["Oswald", "sans-serif"],
-      },
     },
   },
   plugins: [],
