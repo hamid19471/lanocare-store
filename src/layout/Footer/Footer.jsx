@@ -89,14 +89,16 @@ const Footer = () => {
         <div className="bg-primary text-slate-200/80 rounded-b-3xl py-3 px-6">
           <div className="flex lg:flex-row flex-col items-center justify-between">
             <div>
-              <p className="font-light text-black/80 uppercase tracking-wider">
+              <p className="font-light text-black/80 uppercase tracking-wider text-center md:text-left">
                 Copyright 2022 Lanocare . All rights reserved.
               </p>
             </div>
             <div className="mt-4 lg:mt-0">
               <ul className="flex items-center justify-center gap-8 font-light text-black tracking-wide">
                 <li>Tracking Order</li>
-                <li>Contact us</li>
+                <li className="border-y-0 px-8 border-x-1 border border-black">
+                  Contact us
+                </li>
                 <li>Privacy</li>
               </ul>
             </div>
