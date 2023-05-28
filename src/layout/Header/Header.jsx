@@ -4,8 +4,8 @@ import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/Main-Logo.png";
 const Header = () => {
   return (
-    <header className="container">
-      <div className="hidden bg-slate-100 w-full rounded-full opacity-80 md:flex items-center justify-between py-3 px-10 mt-8">
+    <header className="container relative z-10">
+      <div className="hidden bg-slate-100 backdrop-blur-3xl w-full rounded-full opacity-80 md:flex items-center justify-between py-3 px-10 mt-8">
         <div>
           <ul>
             {menuItems.map((item) => (
