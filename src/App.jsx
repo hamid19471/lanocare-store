@@ -1,11 +1,9 @@
-import Footer from "./layout/Footer/Footer";
-import Header from "./layout/Header/Header";
+import Home from "./pages/Home/Home";
 
 function App() {
   return (
     <div>
-      <Header />
-      <Footer />
+      <Home />
     </div>
   );
 }
