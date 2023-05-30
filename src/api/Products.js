@@ -18,7 +18,7 @@ import vitamine_featured from "../assets/product_images/vitamin e/featured.png";
 import vitamine_main from "../assets/product_images/vitamin e/main-image.png";
 import vitamine_box from "../assets/product_images/vitamin e/box-image.png";
 
-export const products = [
+export const Products = [
   {
     id: 1,
     name: "Anti-Wrinkle Cream",
