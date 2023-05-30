@@ -5,6 +5,8 @@ import icon1 from "../../assets/svg-icons/icon-01.svg";
 import icon2 from "../../assets/svg-icons/icon-02.svg";
 import icon3 from "../../assets/svg-icons/icon-03.svg";
 import icon4 from "../../assets/svg-icons/icon-04.svg";
+import ProductList from "../../components/ProductList/ProductList";
+import Button from "../../components/Button/Button";
 
 const Home = () => {
   return (
@@ -45,6 +47,18 @@ const Home = () => {
           <p className="text-white/40 font-light tracking-wide">
             Guarantee and guarantee the authenticity and quality of goods
           </p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <h2 className="text-[40px] font-extralight tracking-wide text-center text-white mb-10">
+            Our Products
+          </h2>
+          <hr className="border-primary w-20 mx-auto mb-32 -translate-y-4" />
+        </div>
+        <ProductList slice={4} />
+        <div className="container flex items-center justify-center my-12 text-white text-lg">
+          <Button primary="primary">View All Products</Button>
         </div>
       </div>
     </Layout>
