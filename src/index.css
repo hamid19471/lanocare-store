@@ -14,3 +14,7 @@ body {
     @apply mx-auto w-full max-w-[1500px];
   }
 }
+
+.active {
+  @apply text-primary;
+}
