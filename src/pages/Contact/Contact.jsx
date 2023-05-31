@@ -1,6 +1,4 @@
-import Layout from "../../layout";
-
 const Contact = () => {
-  return <Layout>this is Contact</Layout>;
+  return <div className="container">this is Contact</div>;
 };
 export default Contact;

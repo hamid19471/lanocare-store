@@ -1,4 +1,3 @@
-import Layout from "../../layout";
 import slider from "../../assets/slider.jpeg";
 
 import icon1 from "../../assets/svg-icons/icon-01.svg";
@@ -10,7 +9,7 @@ import Button from "../../components/Button/Button";
 
 const Home = () => {
   return (
-    <Layout>
+    <>
       <div>
         <img
           src={slider}
@@ -61,7 +60,7 @@ const Home = () => {
           <Button primary="primary">View All Products</Button>
         </div>
       </div>
-    </Layout>
+    </>
   );
 };
 export default Home;

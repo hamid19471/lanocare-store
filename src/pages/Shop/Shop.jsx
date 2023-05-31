@@ -1,6 +1,4 @@
-import Layout from "../../layout";
-
 const Shop = () => {
-  return <Layout>this is Shop</Layout>;
+  return <div className="container">this is Shop</div>;
 };
 export default Shop;
