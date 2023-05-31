@@ -1,4 +1,6 @@
+import Layout from "../../layout";
+
 const Blog = () => {
-  return <div>this is Blog</div>;
+  return <Layout>this is Blog</Layout>;
 };
 export default Blog;
