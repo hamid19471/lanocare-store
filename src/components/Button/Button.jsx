@@ -1,4 +1,4 @@
-const Button = ({ primary, children, onClick }) => {
+const Button = ({ primary, children, onClick, fullWidth }) => {
   return (
     <div>
       <button
@@ -7,7 +7,7 @@ const Button = ({ primary, children, onClick }) => {
           primary
             ? "bg-primary"
             : "border border-primary text-primary hover:bg-primary hover:text-black"
-        }`}
+        } ${fullWidth && "w-full"}`}
       >
         {children}
       </button>
