@@ -5,6 +5,7 @@ import Blog from "./pages/Blog/Blog";
 import Contact from "./pages/Contact/Contact";
 import Shop from "./pages/Shop/Shop";
 import Layout from "./layout";
+import Privacy from "./pages/Privacy/Privacy";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/privacy",
+        element: <Privacy />,
       },
       {
         path: "*",
