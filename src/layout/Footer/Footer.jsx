@@ -4,6 +4,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { BsFacebook } from "react-icons/bs";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { AiFillYoutube } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -32,31 +33,31 @@ const Footer = () => {
                   <span>
                     <VscCircleFilled className="text-primary w-3" />
                   </span>
-                  Shop
+                  <Link to="shop">Shop</Link>
                 </li>
                 <li className="flex items-center justify-start gap-1 cursor-pointer hover:text-primary duration-300 font-light">
                   <span>
                     <VscCircleFilled className="text-primary w-3" />
                   </span>
-                  Products
+                  <Link to="shop">Products</Link>
                 </li>
                 <li className="flex items-center justify-start gap-1 cursor-pointer hover:text-primary duration-300 font-light">
                   <span>
                     <VscCircleFilled className="text-primary w-3" />
                   </span>
-                  Tracking Order
+                  <Link to="blog">Blog</Link>
                 </li>
                 <li className="flex items-center justify-start gap-1 cursor-pointer hover:text-primary duration-300 font-light">
                   <span>
                     <VscCircleFilled className="text-primary w-3" />
                   </span>
-                  Privacy
+                  <Link to="privacy">Privacy</Link>
                 </li>
               </ul>
             </div>
             <div>
               <h3 className="font-light text-2xl text-white tracking-wider">
-                Contact us
+                Contact
               </h3>
               <hr className="w-[60px] mt-3 border-t-2 border-primary" />
               <div className="flex flex-col mt-4 gap-3 font-light tracking-wide">
@@ -69,16 +70,24 @@ const Footer = () => {
                 <div>
                   <ul className="flex gap-6 mt-8 text-primary">
                     <li className="cursor-pointer hover:scale-125 duration-300">
-                      <AiOutlineInstagram />
+                      <Link to="https://www.instagram.com/" target="_black">
+                        <AiOutlineInstagram />
+                      </Link>
                     </li>
                     <li className="cursor-pointer hover:scale-125 duration-300">
-                      <BsFacebook />
+                      <Link to="https://www.facebook.com/" target="_black">
+                        <BsFacebook />
+                      </Link>
                     </li>
                     <li className="cursor-pointer hover:scale-125 duration-300">
-                      <AiOutlineTwitter />
+                      <Link to="https://twitter.com/" target="_black">
+                        <AiOutlineTwitter />
+                      </Link>
                     </li>
                     <li className="cursor-pointer hover:scale-125 duration-300">
-                      <AiFillYoutube />
+                      <Link to="https://www.youtube.com/" target="_black">
+                        <AiFillYoutube />
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -90,14 +99,22 @@ const Footer = () => {
           <div className="flex lg:flex-row flex-col items-center justify-between">
             <div>
               <p className="font-light text-black/80 uppercase tracking-wider text-center md:text-left">
-                Copyright 2022 Lanocare . All rights reserved.
+                Copyright 2022 Lanocare . All rights reserved
+              </p>
+            </div>
+            <div>
+              <p className="text-black/80 uppercase font-light">
+                Design and development:
+                <Link to="https://hamidasadi.com" target="_blank">
+                  <span className="font-bold"> Hamid Asadi</span>
+                </Link>
               </p>
             </div>
             <div className="mt-4 lg:mt-0">
               <ul className="flex items-center justify-center gap-8 font-light text-black tracking-wide">
                 <li>Tracking Order</li>
                 <li className="border-y-0 px-8 border-x-1 border border-black">
-                  Contact us
+                  <Link to="contact">Contact us</Link>
                 </li>
                 <li>Privacy</li>
               </ul>
