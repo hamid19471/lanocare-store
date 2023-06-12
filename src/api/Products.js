@@ -27,6 +27,7 @@ export const Products = [
     short_description:
       "LANOCARE anti-wrinkle cream is a strong moisturizer which hydrates the skin and nourishes and soothes tired skin. Among the actives used in the formula of this product are the following: Peptide syn-ake This peptide, produced by the PENTA PHARMA Swiss Company, is a new and efficient compound with the same effect as Botox, which, in addition to inhibiting muscle contraction, makes wrinkles smooth. Pepha-tight CB This substance has an immediate lifting effect, and also brings a permanent and stable effect after continuous use. Smoother skin, reduction of wrinkles and uniform skin texture are also other benefits of this substance. Usable For: Facial and neck skin Suitable for normal to dry and very dry skin",
     price: 399,
+    count: 1,
     feature_image: wrinkle_featured,
     product_image: wrinkle_main,
     product_box_image: wrinkle_box,
@@ -41,6 +42,7 @@ export const Products = [
     short_description:
       "ingredients including the following: Sodium Hyaluronate The hydration effect is the most important role of sodium hyaluronate. Sodium hyaluronate has an extraordinary water absorption capacity that can absorb 1000 times its own volume of water. It also prevents wrinkles and skin aging due to skin nutrition. Shea Butter Shea butter is a safe and powerful moisturizer and softener for skin tissue and has antioxidant properties. Antioxidants play an important role in reducing and controlling the activity of free radicals and oxidant reactions, they postpone the appearance of aging signs and prevent skin wrinkles.Usable For: Body           Hands         Neck",
     price: 220,
+    count: 1,
     feature_image: skin_featured,
     product_image: skin_main,
     product_box_image: skin_box,
@@ -55,6 +57,7 @@ export const Products = [
     short_description:
       "ingredients of this product are as following: Allantoin Allantoin has anti-aging properties and maintains skin moisture. Another benefit of allantoin for the skin is helping relieve eczema through moisturizing and relieving skin itching. This substance exfoliates dead and damaged cells and improves skin texture. As a result, the skin looks so clear. Sodium Hyaluronate: Hydrating is the most important role of sodium hyaluronate. It also prevents wrinkles and skin aging due to skin nutrition. Usable For: Body           Hands         Neck",
     price: 185,
+    count: 1,
     feature_image: body_featured,
     product_image: body_main,
     product_box_image: body_box,
@@ -69,6 +72,7 @@ export const Products = [
     short_description:
       "LANOCARE vitamin C serum contains alpha-arbutin 2.5 and ascorbic acid 10%. Ascorbic Acid Ascorbic acid increases your skin's collagen production so that you have firmer and stronger skin whose tiny lines and wrinkles have faded away. This substance has strong antioxidant properties and helps fight free radicals and damage caused by UV rays. It also contains Alpha Arbutin. Alpha Arbutin Having a well-known and very efficient composition, it is the best alternative to hydroquinone. In addition to its very good brightening power, it contains antioxidants that help rejuvenate the skin. Usable For: Facial and Neck Skin               Hands Suitable for all types of skin, except for very oily and acne-prone skin",
     price: 120,
+    count: 1,
     feature_image: vitaminc_featured,
     product_image: vitmainc_main,
     product_box_image: vitaminc_box,
@@ -83,6 +87,7 @@ export const Products = [
     short_description:
       "Among the compounds used in this product, which are very effective in skin health, the followings can be mentioned. Sodium Hyaluronate Very strong hydration and water retention of the skin is one of the properties of this material. Almond Oil: Hydrating, moisturizing and excellent sun protection are the properties of this oil. Salicylic Acid It is an anti-inflammatory, surface exfoliator and skin oil control agent. Usable for: Facial and Neck Skin              Hands Suitable for all different types of skin.",
     price: 190,
+    count: 1,
     feature_image: vitamine_featured,
     product_image: vitamine_main,
     product_box_image: vitamine_box,
