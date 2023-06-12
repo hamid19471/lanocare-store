@@ -6,7 +6,9 @@ import { CiUser } from "react-icons/ci";
 import { CiShoppingBasket } from "react-icons/ci";
 import Cart from "../../components/Cart/Cart";
 import { useState } from "react";
+import { useCart } from "../../context/Cart/CartProvider";
 const Header = () => {
+  const { cart } = useCart();
   const [open, setOpen] = useState(false);
   return (
     <header className="container relative z-10">
@@ -42,7 +44,7 @@ const Header = () => {
                 <CiShoppingBasket size={23} />
               </div>
               <span className="absolute top-4 right-9 bg-red-500 w-4 h-4 rounded-full flex items-center justify-center text-white text-xs font-light p-2">
-                1
+                {cart.length}
               </span>
             </li>
           </ul>
