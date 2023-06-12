@@ -6,6 +6,7 @@ import icon3 from "../../assets/svg-icons/icon-03.svg";
 import icon4 from "../../assets/svg-icons/icon-04.svg";
 import ProductList from "../../components/ProductList/ProductList";
 import Button from "../../components/Button/Button";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -57,7 +58,9 @@ const Home = () => {
         </div>
         <ProductList slice={4} />
         <div className="container flex items-center justify-center my-12 text-white text-lg">
-          <Button primary="primary">View All Products</Button>
+          <Link to="/shop">
+            <Button primary="primary">View All Products</Button>
+          </Link>
         </div>
       </div>
     </>
