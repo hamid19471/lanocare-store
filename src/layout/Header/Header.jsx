@@ -10,10 +10,31 @@ import { useCart } from "../../context/Cart/CartProvider";
 const Header = () => {
   const { cart } = useCart();
   const [open, setOpen] = useState(false);
+  const [navbar, setNavbar] = useState(false);
+
+  const changeNvabarStyle = () => {
+    if (window.scrollY >= 80) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+  window.addEventListener("scroll", changeNvabarStyle);
+
   return (
-    <header className="container relative z-10">
+    <header
+      className={`${
+        navbar
+          ? "max-w-4xl mx-auto sticky top-0 z-50 duration-300  rounded-b-3xl"
+          : "container sticky top-5 z-50 duration-300 "
+      }`}
+    >
       <Cart open={open} handleOpen={() => setOpen(false)} />
-      <div className="hidden bg-slate-100 backdrop-blur-3xl w-full rounded-full opacity-80 lg:flex items-center justify-between py-3 px-10 mt-8">
+      <div
+        className={`hidden bg-slate-100 backdrop-blur-3xl ease-in-out w-full rounded-full opacity-80 lg:flex items-center justify-between py-3 px-10 mt-8 ${
+          navbar && "hidden w-full ease-in-out py-6 rounded-none rounded-b-xl"
+        }`}
+      >
         <div className="w-full">
           <ul>
             {menuItems.map((item) => (
@@ -28,7 +49,11 @@ const Header = () => {
         </div>
         <div className="w-full">
           <Link to="/">
-            <img src={logo} alt="Lanocare" className="w-24" />
+            <img
+              src={logo}
+              alt="Lanocare"
+              className={`w-24 ${navbar && "hidden"}`}
+            />
           </Link>
         </div>
         <div>
