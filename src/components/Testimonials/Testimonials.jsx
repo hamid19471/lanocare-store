@@ -7,7 +7,7 @@ const Testimonials = () => {
     Infinite: true,
     LazyLoad: true,
     speed: 500,
-    slidesToShow: 2,
+    slidesToShow: 1,
     ceneterMode: true,
     autoplay: true,
     autoplaySpeed: 3000,
