@@ -7,6 +7,7 @@ import icon4 from "../../assets/svg-icons/icon-04.svg";
 import ProductList from "../../components/ProductList/ProductList";
 import Button from "../../components/Button/Button";
 import { Link } from "react-router-dom";
+import Testimonials from "../../components/Testimonials/Testimonials";
 
 const Home = () => {
   return (
@@ -61,6 +62,13 @@ const Home = () => {
           <Link to="/shop">
             <Button primary="primary">View All Products</Button>
           </Link>
+        </div>
+        <div className="mt-32">
+          <h2 className="text-[40px] font-extralight tracking-wide text-center text-white mb-10">
+            Testimonials
+          </h2>
+          <hr className="border-primary w-20 mx-auto mb-32 -translate-y-4" />
+          <Testimonials />
         </div>
       </div>
     </>
