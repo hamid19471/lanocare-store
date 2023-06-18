@@ -55,7 +55,7 @@ const Home = () => {
           <h2 className="text-[40px] font-extralight tracking-wide text-center text-white mb-10">
             Our Products
           </h2>
-          <hr className="border-primary w-20 mx-auto mb-32 -translate-y-4" />
+          <hr className="border-primary w-20 mx-auto mb-10 -translate-y-4" />
         </div>
         <ProductList slice={4} />
         <div className="container flex items-center justify-center my-12 text-white text-lg">
@@ -67,7 +67,7 @@ const Home = () => {
           <h2 className="text-[40px] font-extralight tracking-wide text-center text-white mb-10">
             Testimonials
           </h2>
-          <hr className="border-primary w-20 mx-auto mb-32 -translate-y-4" />
+          <hr className="border-primary w-20 mx-auto mb-10 -translate-y-4" />
           <Testimonials />
         </div>
       </div>
