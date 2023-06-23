@@ -19,7 +19,7 @@ const Cart = ({ open, handleOpen }) => {
       className={`w-full z-10 fixed h-screen top-0 left-0 ${!open && "hidden"}`}
     >
       <div className="flex h-screen">
-        <div className=" flex flex-col justify-between w-[90%] sm:w-[100%] md:w-[80%] lg:w-[30%] text-black bg-white h-full p-10">
+        <div className=" flex flex-col justify-between w-[90%] sm:w-[100%] md:w-[80%] lg:w-[50%] xl:w-[30%] text-black bg-white h-full p-10">
           <div className="flex relative items-center justify-between">
             <h2>Shopping Cart</h2>
             <h3>items - {cart.length}</h3>
