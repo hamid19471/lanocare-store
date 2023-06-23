@@ -21,7 +21,7 @@ const Testimonials = () => {
     <div className="container mb-28">
       <Slider {...settings}>
         {TestimonialsData.map((item) => (
-          <div key={item.id} className="">
+          <div key={item.id}>
             <TestimonialsCard item={item} />
           </div>
         ))}
