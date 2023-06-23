@@ -8,6 +8,7 @@ import ProductList from "../../components/ProductList/ProductList";
 import Button from "../../components/Button/Button";
 import { Link } from "react-router-dom";
 import Testimonials from "../../components/Testimonials/Testimonials";
+import Blog from "../Blog/Blog";
 
 const Home = () => {
   return (
@@ -69,6 +70,7 @@ const Home = () => {
           </h2>
           <hr className="border-primary w-20 mx-auto mb-10 -translate-y-4" />
           <Testimonials />
+          <Blog />
         </div>
       </div>
     </>
