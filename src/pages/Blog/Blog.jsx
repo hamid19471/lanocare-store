@@ -1,13 +1,11 @@
-import { BlogData } from "../../api/BlogData";
-import BlogCard from "../../components/BlogCard/BlogCard";
+import BlogList from "../../components/BlogList/BlogList";
+import PageHeading from "../../components/PageHeading/PageHeading";
+
 const Blog = () => {
   return (
-    <div className="container flex gap-3">
-      {BlogData.map((item) => (
-        <div key={item.id}>
-          <BlogCard item={item} />
-        </div>
-      ))}
+    <div className="container mb-32">
+      <PageHeading currentPage="Blog" />
+      <BlogList />
     </div>
   );
 };
