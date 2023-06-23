@@ -1,5 +1,4 @@
 import slider from "../../assets/slider.jpeg";
-
 import icon1 from "../../assets/svg-icons/icon-01.svg";
 import icon2 from "../../assets/svg-icons/icon-02.svg";
 import icon3 from "../../assets/svg-icons/icon-03.svg";
@@ -8,7 +7,7 @@ import ProductList from "../../components/ProductList/ProductList";
 import Button from "../../components/Button/Button";
 import { Link } from "react-router-dom";
 import Testimonials from "../../components/Testimonials/Testimonials";
-import Blog from "../Blog/Blog";
+import BlogList from "../../components/BlogList/BlogList";
 
 const Home = () => {
   return (
@@ -70,7 +69,13 @@ const Home = () => {
           </h2>
           <hr className="border-primary w-20 mx-auto mb-10 -translate-y-4" />
           <Testimonials />
-          <Blog />
+        </div>
+        <div className="mt-32 mb-44">
+          <h2 className="text-[40px] font-extralight tracking-wide text-center text-white mb-10">
+            Blog
+          </h2>
+          <hr className="flex items-center justify-center border-primary w-20 mx-auto mb-10 -translate-y-4" />
+          <BlogList />
         </div>
       </div>
     </>
