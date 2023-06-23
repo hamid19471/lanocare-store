@@ -7,7 +7,7 @@ export const BlogData = [
     date: "2021-01-01",
     image: "",
     author: "Admin",
-    category: "Cosmetics",
+    category: ["Cosmetics, Organic"],
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const BlogData = [
     date: "2021-01-02",
     image: "",
     author: "Admin",
-    category: "Cosmetics",
+    category: ["Cosmetics, Beauty"],
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ export const BlogData = [
     date: "2021-01-03",
     image: "",
     author: "Admin",
-    category: "Cosmetics",
+    category: ["Skin Care", "Care"],
   },
   {
     id: 4,
@@ -37,6 +37,6 @@ export const BlogData = [
     date: "2021-01-04",
     image: "",
     author: "Admin",
-    category: "Cosmetics",
+    category: ["Protector", "Skin Care"],
   },
 ];
