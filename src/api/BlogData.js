@@ -1,3 +1,8 @@
+import image01 from "../assets/blog/01.jpg";
+import image02 from "../assets/blog/02.jpg";
+import image03 from "../assets/blog/03.jpg";
+import image04 from "../assets/blog/04.jpg";
+
 export const BlogData = [
   {
     id: 1,
@@ -5,7 +10,7 @@ export const BlogData = [
     description:
       "Est diam debitis an, error recusabo id pro, quo eripuit civibus ut. Mel ut tamquam erroribus, ad nonumy vituperata mei.Et qui falli latine consequuntur. In appellantur concludaturque pro. Commune scriptorem",
     date: "2021-01-01",
-    image: "",
+    image: image01,
     author: "Admin",
     category: ["Cosmetics, Organic"],
   },
@@ -15,7 +20,7 @@ export const BlogData = [
     description:
       "Est diam debitis an, error recusabo id pro, quo eripuit civibus ut. Mel ut tamquam erroribus, ad nonumy vituperata mei.Et qui falli latine consequuntur. In appellantur concludaturque pro. Commune scriptorem",
     date: "2021-01-02",
-    image: "",
+    image: image02,
     author: "Admin",
     category: ["Cosmetics, Beauty"],
   },
@@ -25,7 +30,7 @@ export const BlogData = [
     description:
       "Est diam debitis an, error recusabo id pro, quo eripuit civibus ut. Mel ut tamquam erroribus, ad nonumy vituperata mei.Et qui falli latine consequuntur. In appellantur concludaturque pro. Commune scriptorem",
     date: "2021-01-03",
-    image: "",
+    image: image03,
     author: "Admin",
     category: ["Skin Care", "Care"],
   },
@@ -35,7 +40,7 @@ export const BlogData = [
     description:
       "Est diam debitis an, error recusabo id pro, quo eripuit civibus ut. Mel ut tamquam erroribus, ad nonumy vituperata mei.Et qui falli latine consequuntur. In appellantur concludaturque pro. Commune scriptorem",
     date: "2021-01-04",
-    image: "",
+    image: image04,
     author: "Admin",
     category: ["Protector", "Skin Care"],
   },
