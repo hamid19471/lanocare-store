@@ -1,11 +1,10 @@
-const Input = ({ id, name, type = "text", formik }) => {
+const Input = ({ id, name, inputType = "text", formik }) => {
   return (
     <div>
       <label htmlFor="">
         <input
-          type="text"
           id={id}
-          type={type}
+          type={inputType}
           name={name}
           {...formik.getFieldProp(name)}
         />
