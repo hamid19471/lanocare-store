@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useCart, useCartActions } from "../../context/Cart/CartProvider";
 import Button from "../Button/Button";
 import { IoMdClose } from "react-icons/io";
@@ -82,7 +83,11 @@ const Cart = ({ open, handleOpen }) => {
               </Button>
             </div>
             <div className="w-full">
-              <Button fullWidth="fullWidth">View Cart</Button>
+              <Link to="/cart">
+                <Button fullWidth="fullWidth" onClick={() => handleCartOpen()}>
+                  View Cart
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
