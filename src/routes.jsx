@@ -7,6 +7,7 @@ import Shop from "./pages/Shop/Shop";
 import Layout from "./layout";
 import Privacy from "./pages/Privacy/Privacy";
 import Notfound from "./pages/404";
+import CartPage from "./pages/CartPage/CartPage";
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: "/privacy",
         element: <Privacy />,
+      },
+      {
+        path: "/cart",
+        element: <CartPage />,
       },
     ],
   },
